@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LHS_web</title>
+
+    <style>
+        .main_body_content{
+            display: flex;
+            flex-direction:column;
+        }
+        header{
+            padding-left: 20px;
+            background-color: powderblue;
+            
+        }
+        footer{
+            border-top: 1px solid gray;
+            text-align: center;
+        }
+        #mak{
+            display: inline;
+            float:right;
+            width:100%;
+        }
+        #titlemenu {
+            float:left;
+            width:100%;
+            font-size:93%;
+           
+         }
+         #titlemenu ul {
+            margin:0;
+            }
+        #titlemenu li {
+            display:inline;
+            margin:0;
+            padding:0;
+            }
+        #titlemenu a {
+            float:right;
+            background:url("tableft.gif") no-repeat left top;
+            margin:0;
+            padding:0 0 0 4px;
+            text-decoration:none;
+            }
+        #titlemenu a span {
+            float:left;
+            display:block;
+            flex-direction: row-reverse;
+            background:url("tabright.gif") no-repeat right top;
+            padding:5px 50px 4px 6px;
+            color:black;
+            }
+        .header_section main{
+            text-align: center;
+        }
+        #name{
+            font-size: 50px;
+            padding-top: 250px;
+            font-family: serif;
+        }
+        #like{
+            font-size: 20px;
+            padding-top: 30px;
+            font-family: Georgia;
+        }
+        #mainphoto{
+            padding-top: 30px;
+        }
+        #myprofile {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+            font-family: Verdana, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main_body_content">
+        <header class="header_section">
+            <div id="titlemenu">
+                <a id="mak" href="index.html">
+                    <img src="images/mak1.png" style="padding-top: 15px;" >
+                    <!-- 막형수 -->
+                </a>
+                <ul>
+                    <li><a href="http://www.free-css.com/"><span>Log-in</span></a></li>
+                    <li><a href="http://www.free-css.com/"><span>Music</span></a></li>
+                    <li><a href="http://www.free-css.com/"><span>Soccer</span></a></li>
+                    <li><a href="http://www.free-css.com/"><span>About</span></a></li>
+                </ul>
+            </div>
+            <main>
+                <div id="name">
+                    LIM HYUNG SU
+                </div>
+                <div id="like">
+                    Je t'aime
+                </div>
+                <div id="mainphoto">
+                    <img src="images/notebook.png">
+                </div>
+
+            </main>
+        </header>
+        
+        <section class="content">
+          <div id="myprofile">
+            <img src="images/My_profile.png" width="200px"><br>
+            HI
+          </div>
+        </section>
+
+        <footer>
+            잉기~
+        </footer>
+    </div>
+</body>
+
+</html>
